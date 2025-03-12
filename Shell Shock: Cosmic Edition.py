@@ -3,7 +3,7 @@ import random
 
 
 win = turtle.Screen()
-win.title("Giigle Vigilant")
+win.title("Shell Shock: Cosmic Edition")
 win.bgcolor("black")
 win.setup(width=600, height=800)
 win.tracer(0)
