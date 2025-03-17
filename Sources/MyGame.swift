@@ -10,4 +10,7 @@ final class MyGame: Game {
 
  @OptionGroup
  var options: GameOptions
+
+ private let screenwhidth = 600       // Setup Windows Dimensions 
+ private let screenHeight = 800 
 }
