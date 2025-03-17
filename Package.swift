@@ -8,13 +8,13 @@ let Package = Package(
     .linux
   ],
   dependencies: [
-    .Package(url: "https://github.com/PureSwift/SDL.git", from "2.0.0")
+    .Package(url: "https://github.com/KevinVitale/SwiftSDL.git", from "v0.2.0-alpha.26")
   ],
   targets: [
     .executableTarget(
       name: "ShellShockCosmicEdition",
       dependencies: [
-        .product(name: "SDL2", package: "SDL")
+        "SwiftSDL"
       ]
     )
 )
